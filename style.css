@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(205, 241, 255);
+}
+
+h1 {
+    color: rgb(31, 134, 100);
+    background-color: rgb(255, 255, 255);
+    font: bold;
+    font-size: 50px;
+}
+
+canvas {
+    border:5px solid white;
+    border-radius: 20px;
+    margin-top: 100px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+
+
+    from{box-shadow: 1px 1px 40px rgb(12, 109, 109);}
+    to{box-shadow: 1px 1px 40px rgb(77, 87, 184);}
+ 
+}
+
+p {
+    padding-top: 10px;
+    font-size: 25px;
+    font: red;
+}
+
+#score {
+    margin-right: 1350px;
+    font-size: 50px;
+}
+
+#timer {
+    margin-left: 1350px;
+    font-size: 50px;
+}
